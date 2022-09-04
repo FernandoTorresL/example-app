@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 Route::get('blog', function () {
     // Consulta a base de datos
@@ -13,10 +13,11 @@ Route::get('blog', function () {
         ['id' => 2, 'title' => 'Laravel',   'slug' => 'laravel'],
     ];
     return view('blog', ['posts' => $posts]);
-});
+})->name('blog');
 
 Route::get('blog/{slug}', function ($slug) {
     // Consulta a base de datos
     $post = $slug;
+
     return view('post', ['post' => $post]);
-});
+})->name('post');
