@@ -1,3 +1,89 @@
+# [Curso de Introducción a Laravel 9, Platzi, v2022](https://platzi.com/cursos/laravel/)
+## [Platzi](https://platzi.com/)
+
+<a href="https://github.com/FernandoTorresL/example-app/commits/main" target="_blank">![GitHub last commit](https://img.shields.io/github/last-commit/FernandoTorresL/example-app)</a>
+
+<a href="https://github.com/FernandoTorresL/example-app" target="_blank">![GitHub repo size](https://img.shields.io/github/repo-size/FernandoTorresL/example-app)</a>
+
+---
+
+### Description
+Course Professor: Italo Morales F, [@italomoralesf](https://twitter.com/@italomoralesf)
+
+### [Curso de Introducción a Laravel 9, Platzi, v2022](https://platzi.com/cursos/laravel/)
+In this course we learn:
+
+- How to start working with Laravel 9 and installation
+- Laravel CLI
+- about Laravel Breeze, simple implementation of all of Laravel's authentication features
+- Routes and Controllers
+- Basic Loops and conditionals
+- Controllers
+- Blade Layouts
+- Migrations and Databases, ORM Eloquent
+- Seeding and Model Factories
+- Basics about Eloquent relations
+- Laravel Debug Bar
+- How to code better projects
+
+Final project: Dashboard - Posts
+
+---
+
+### Installation
+WIP
+#### Clone this repo
+
+You can use and change *_<my_folder>_* on this instruction to create a new folder
+
+```cmd
+git clone git@github.com:FernandoTorresL/example-app.git <my_folder>
+```
+
+#### Change to working directory
+
+```cmd
+cd <my_folder>
+```
+
+Installing breeze and get ready a session login
+
+- Executing:
+
+
+```cmd
+php artisan breeze:install
+php artisan migrate
+npm install
+npm run dev
+```
+
+This commands publish authentication views, routes, controllers, and other resources.
+To avoid errors, we comment Vite lines on files layouts/app.blade.php y layouts/guest.blade.php and add:
+
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script src="{{ asset('js/app.js') }}" defer></script>
+    
+---
+
+<div align="center">
+    <a href="https://fertorresmx.dev/">
+      <img height="150em" src="https://raw.githubusercontent.com/FernandoTorresL/FernandoTorresL/main/media/FerTorres-dev1.png">
+  </a>
+</div>
+
+<p align="center">
+    <a href="https://www.buymeacoffee.com/fertorresmx"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=fertorresmx&button_colour=5F7FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00"></a>
+</p>
+
+## Follow me 
+[fertorresmx.dev](https://fertorresmx.dev/)
+
+### :globe_with_meridians: [Twitter](https://twitter.com/FerTorresMx), [Instagram](https://www.instagram.com/fertorresmx/): @fertorresmx
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
